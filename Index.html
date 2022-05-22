@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+
+<body>
+    <header class="containter-fluid">
+        <h1>Grizzly Beer Camp</h1>
+    </header>
+
+<!-- Background image -->
+<div class="bg-image">
+    <h2>Bienvenido al refugio</h2>
+</div>
+<!-- Background image -->
+
+
+    <div class="containter-fluid">
+        <div class="row">
+            <div class="col" id="separador-titulado">
+                <h2>Nuestras Cervezas</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" id="Carrusel">
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <!-- Aca va a iniciar el carrusel -->
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="imagenes/birra1.jpg" class="d-blockw-100" alt="Cerveza 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>London Pride</h5>
+                                <p>Super ligera y maltosa, de alta tomabilidad ideal .</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/birra2.jpg" class="d-blockw-100" alt="Cerveza 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Así como Así</h5>
+                                <p>Incorpora los lúpulos Galaxy, Citra y Centennial ! Muy frutal.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="imagenes/birra3.jpg" class="d-blockw-100" alt="Cerveza 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>BELGIAN DARK STORNG ALE</h5>
+                                <p>Con adicion de CEREZAS la cual en aroma es una explosión y en boca redondea excelente
+                                    su
+                                    complejidad de maltas, levadura belga y la fruta loca! .</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Aca va a finalizar el carrusel -->
+            </div>
+            <div class="col">
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col" id="separador">
+            </div>
+        </div>
+        <div class="row" id="Historia">
+            <div class="col-3">
+                <img src="imagenes/IMG2.jpg" class="img-thumbnail" alt="caricatura grizzly beer camp">
+            </div>
+            <div class="col-9">
+                <h2>Nuestra historia</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo commodi in inventore sapiente
+                    non. Iste alias debitis, iure dignissimos quam eligendi velit repudiandae fuga doloremque, et natus
+                    eos obcaecati temporibus.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12" id="formulario">
+                <h2>Contactanos</h2>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Dirección de Mail</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-12">
+                    <button class="btn btn-primary" type="submit">Enviar</button>
+                  </div>
+            </div>
+            
+        </div>
+    </div>
+    <footer class="container-fluid">
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

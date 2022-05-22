@@ -1,0 +1,59 @@
+header.containter-fluid{
+    height: 80px;
+    font-size: 32px;
+    background-color: rgba(173, 130, 36, 0.815);
+    text-align: center;
+}
+
+.col#separador{
+    background-color: black;
+    height: 20px;
+    text-align: center;
+}
+.col#separador-titulado{
+    background-color: black;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.d-blockw-100{
+    scale: 0.5;
+}
+#Carrusel{
+    background-color: rgba(173, 130, 36, 0.815);
+}
+
+#formulario{
+    background-color: black;
+}
+#formulario h2{
+    color: antiquewhite;
+}
+.form-label{
+    color: antiquewhite;
+}
+
+#Historia{
+    background-color: rgba(173, 130, 36, 0.815);
+
+}
+
+
+.bg-image{
+    height: 400px;
+    background-image: url("../imagenes/IMG1.jpg");
+    text-align: center;
+    filter: grayscale(70%);
+} 
+.bg-image h2{
+    visibility: hidden;
+}
+.bg-image:hover{
+    color: chocolate;
+    filter: grayscale(0%);
+}
+.bg-image:hover h2{
+    visibility: visible;
+}
